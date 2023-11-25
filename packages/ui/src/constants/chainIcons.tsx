@@ -108,6 +108,10 @@ const chainIcons = {
     light: <ZoraIconDark />,
     dark: <ZoraIconLight />,
   },
+  [reservoirChains.beam.id]: {
+    light: <ZoraIconDark />,
+    dark: <ZoraIconLight />,
+  },
 }
 
 export default chainIcons

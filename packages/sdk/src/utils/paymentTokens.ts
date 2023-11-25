@@ -458,4 +458,22 @@ export const chainPaymentTokensMap = {
       decimals: 18,
     },
   ],
+
+  // Beam
+  4337: [
+    {
+      chainId: 4337,
+      address: zeroAddress,
+      symbol: 'BEAM',
+      name: 'BEAM',
+      decimals: 18,
+    },
+    {
+      chainId: 4337,
+      address: '0xD51BFa777609213A653a2CD067c9A0132a2D316A',
+      symbol: 'WBEAM',
+      name: 'WBEAM',
+      decimals: 18,
+    },
+  ],
 } as Record<number, PaymentToken[]>
